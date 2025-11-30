@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
 import joblib
+from pydantic import BaseModel
 from sklearn.preprocessing import normalize
 
 # Load model and vectorizer
